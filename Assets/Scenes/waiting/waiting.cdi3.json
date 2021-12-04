@@ -1,0 +1,87 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamMouth",
+			"GroupId": "",
+			"Name": "口開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "頬染め"
+		},
+		{
+			"Id": "ParamEyeClose",
+			"GroupId": "ParamGroup",
+			"Name": "目開閉"
+		},
+		{
+			"Id": "ParamSurprised",
+			"GroupId": "ParamGroup",
+			"Name": "驚き"
+		},
+		{
+			"Id": "ParamEmbarrassed",
+			"GroupId": "ParamGroup",
+			"Name": "恥ずかしい"
+		},
+		{
+			"Id": "ParamSad",
+			"GroupId": "ParamGroup",
+			"Name": "悲しみ"
+		},
+		{
+			"Id": "ParamHappy",
+			"GroupId": "ParamGroup",
+			"Name": "幸せ"
+		},
+		{
+			"Id": "ParamFun",
+			"GroupId": "ParamGroup",
+			"Name": "楽しい"
+		},
+		{
+			"Id": "ParamFear",
+			"GroupId": "ParamGroup",
+			"Name": "恐れ"
+		},
+		{
+			"Id": "ParamDisgust",
+			"GroupId": "ParamGroup",
+			"Name": "嫌悪"
+		},
+		{
+			"Id": "ParamAnger",
+			"GroupId": "ParamGroup",
+			"Name": "怒り"
+		},
+		{
+			"Id": "ParamBody",
+			"GroupId": "",
+			"Name": "体の左右"
+		},
+		{
+			"Id": "ParamNod",
+			"GroupId": "",
+			"Name": "頷き"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "顔"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "mouth",
+			"Name": "mouth"
+		},
+		{
+			"Id": "face",
+			"Name": "face"
+		}
+	]
+}

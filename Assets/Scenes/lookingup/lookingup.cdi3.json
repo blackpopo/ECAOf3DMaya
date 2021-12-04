@@ -1,0 +1,57 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamMouth",
+			"GroupId": "",
+			"Name": "口開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "頬染め"
+		},
+		{
+			"Id": "ParamEyeClose",
+			"GroupId": "ParamGroup",
+			"Name": "目開閉"
+		},
+		{
+			"Id": "ParamFun",
+			"GroupId": "ParamGroup",
+			"Name": "楽しい"
+		},
+		{
+			"Id": "ParamHappy",
+			"GroupId": "ParamGroup",
+			"Name": "幸せ"
+		},
+		{
+			"Id": "ParamSad",
+			"GroupId": "ParamGroup",
+			"Name": "悲しみ"
+		},
+		{
+			"Id": "ParamEmbarrassed",
+			"GroupId": "ParamGroup",
+			"Name": "恥ずかしい"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Face"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "mouth",
+			"Name": "mouth"
+		},
+		{
+			"Id": "face",
+			"Name": "face"
+		}
+	]
+}
